@@ -1,0 +1,241 @@
+*{
+    
+    margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:lightcoral;
+
+  
+
+}
+ .container h1{
+    
+   color:purple;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left:490px;
+    border-style:solid;
+    border-radius:50px;
+    margin-top: 100px;
+    border-width: 0cap;
+    font-weight:bolder;
+    font-size:90px;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.container h2{
+    color:white;
+    font-size: larger;
+}
+.search-box{
+  max-width: 950px;   
+  /* width: 100%; */
+  margin:0 auto;    
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding:0px;
+  padding-bottom: 900x;
+  padding-top:0px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: lightcoral;
+}
+
+.icons{
+   display: flex;
+  gap: 15px;
+  cursor: pointer;
+
+    }
+
+.icon-container{
+      display:flex;
+      gap:0px;
+      margin-top: 50px;
+      flex-wrap: nowrap;
+}
+.icon-card {
+  width: 120px;
+  text-align: center;
+}
+
+
+.icon-cabs  {
+  width: 60px;
+  height: 60px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+  
+.icon-cabs i{
+  color:blue;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-card p{
+  margin:10px;
+  padding-right:0px;
+}
+
+
+.icon-chat i{
+  color:black;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+}
+.icon-chat {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .icon-home i{
+  color:blueviolet;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-home {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .icon-mail i{
+  color:dodgerblue;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-mail {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .icon-link i{
+  color:darkblue;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-link {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+    .icon-figma i{
+  color:black;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-figma {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+  .icon-admin i{
+  color:black;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-admin {
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+  .icon-code i{
+  color:grey;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-code{
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.icon-youtube i{
+  color:red;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-youtube{
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.icon-add i{
+  color:dimgray;
+  font-size: 30px;
+  padding:10px;
+  align-items: center;
+  
+}
+.icon-add{
+  width: 60px;
+  height: 60px;
+  background-color:lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
