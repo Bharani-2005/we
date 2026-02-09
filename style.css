@@ -47,9 +47,10 @@ body{
 }
 .search-box h2{
   color:white;
+  
 }
 .heading h1{
-  align-items: center;
+  text-align: center;
   padding-left: 00px;
   margin-top:20px;
   font-style:normal;
