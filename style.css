@@ -82,6 +82,14 @@ body{
 }
 
 @media (max-width: 600px) {
+  .heading h1{
+    font-size: 40px;  
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 600px) {
   .search-box {
     width: 95%;           
     margin-top: 50px;      
