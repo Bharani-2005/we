@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+
 </head>
 <body>
-
-            
-    
-    <nav class="navbar">
+<nav class="navbar">
   <img src="image.png" class="logo">
   <a>Gmail</a>
   <a >Images</a>
@@ -23,7 +20,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         </div>
 
         <div class="search-box">
-        <h2>Search Google or type a URL</h2>
+        <input type="text" placeholder="Search Google or type a URL">
         
         <div class="icons">
         <i class="fa-solid fa-microphone"></i>
@@ -33,34 +30,31 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         </div>
     </div>
     
-          
+          <div class="icon-container">
         
-        
-        <div class="icon-container">
-        
-            <div class="icon-card">
+            <div class="icon-card" id="twitterIcon">
         <div class="icon-cabs">
-         <i class="fa-solid fa-cab"></i>
+         <i class="fa-brands fa-x-twitter"></i>
          </div>
-           <p>Cabs</p>
+           <p>Twitter</p>
           </div> 
       
 
-          <div class="icon-card">
+          <div class="icon-card" id="chatgptIcon">
          <div class="icon-chat">
                 <i class="fa-solid fa-message"></i>
             </div>
         <p>Chatgpt</p>
         </div>
 
-         <div class="icon-card">
+         <div class="icon-card" id="calIcon">
          <div class="icon-home">
-                <i class="fa-solid fa-home"></i>
+                <i class="fa-solid fa-calendar-days"></i>
             </div>
-        <p>Home</p>
+        <p>Calendar</p>
         </div>
 
-        <div class="icon-card">
+        <div class="icon-card" id="mailIcon">
          <div class="icon-mail">
                 <i class="fa-solid fa-envelope"></i>
             </div>
@@ -68,7 +62,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         </div>
 
         
-        <div class="icon-card">
+        <div class="icon-card" id="linkedinIcon">
          <div class="icon-link">
                 <i class="fa-brands fa-linkedin"></i>
             </div>
@@ -76,28 +70,28 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         </div>
         
         
-        <div class="icon-card">
+        <div class="icon-card" id="figmaIcon">
          <div class="icon-figma">
             <i class="fa-brands fa-figma"></i>
          </div>
              <p>Figma</p>
         </div>
-
-        <div class="icon-card">
-         <div class="icon-admin">
-            <i class="fa-solid fa-user-shield"></i>
+    
+        <div class="icon-card" id="gearIcon">
+         <div class="icon-gear">
+            <i class="fa-solid fa-gear"></i>
          </div>
-             <p>Admin</p>
+             <p>User</p>
         </div>
 
-        <div class="icon-card">
+        <div class="icon-card" id="githubIcon">
          <div class="icon-code">
-            <i class="fa-solid fa-smile"></i>
+            <i class="fa-brands fa-github"></i>
          </div>
-             <p>codex</p>
+             <p>Github</p>
         </div>
 
-        <div class="icon-card">
+        <div class="icon-card" id="youtubeIcon">
          <div class="icon-youtube">
             <i class="fa-brands fa-youtube"></i>
          </div>Youtube</p>
@@ -105,6 +99,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
          
         <div class="icon-card">
          <div class="icon-add">
+            
             <i class="fa-brands fa-add"></i>
          </div>Add shortcut</p>
         </div>
@@ -112,12 +107,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         
 
 </div>
-           
-
-
-      </div>
+ </div>
       
 </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
